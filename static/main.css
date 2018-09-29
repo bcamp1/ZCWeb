@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Andy Bold';
+    src: local('Andy');
+    font-weight: bold;
+}
+
+html, body {
+    margin: 0;
+    font-family: 'Andy Bold';
+    background-color: #0099ff;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+     -moz-text-fill-color: orange;
+  -webkit-text-fill-color: orange;
+     -moz-text-stroke-color: black;
+  -webkit-text-stroke-color: black;
+     -moz-text-stroke-width: 2px;  
+  -webkit-text-stroke-width: 2px;
+}
+
+form > input[type="text"] {
+    display: block;
+    padding: 10px;
+    
+    border-radius: 10px;
+    border: 3px solid #e8e8e8;
+    width: 80%;
+    font-size: 16px;
+    font-family: 'Comic Sans MS', arial;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+form > input[type="text"]:focus {
+    border-color: black;
+    outline: none;
+    transition: all 0.5s;
+}
+
+form > input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding:10px; 
+    background:#e0e0e0; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+form > input[type="submit"]:hover {
+    background-color: #cccccc;
+}
+
+
+
+#container {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    border-left: 10px solid #e8e8e8;
+    border-right: 10px solid #e8e8e8;
+    height: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+}
+
+

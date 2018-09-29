@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>ZillaCraft</title>
+    <link href="http://allfont.net/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='main.css') }}">
+</head>
+
+<body>
+    
+    <div id="container">
+        <h1 id="title">ZillaCraft</h1>
+    <p id="desc">Welcome to ZillaCraft, a terraria PVP Server! (More information ...)</p>
+    <span id="reset-warning"><b>Next Reset: </b>Friday, October 12th</span>
+
+    <h2>Sign Up Today!</h2>
+    <form action="{{ url_for('handle_data') }}" method="post">
+        <input type="text" placeholder="Name" name="Name">
+        <input type="text" placeholder="Email" name="Email">
+        <input type="text" placeholder="Steam Name" name="Steam">
+        <input type="text" placeholder="Discord Username" name="Discord">
+        <input type="submit">
+    </form>
+    </div>
+</body>
+</html>
