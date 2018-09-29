@@ -28,4 +28,4 @@ def handle_data():
 
     return 'Your form has been submitted! We will contact you shortly. Happy boss-fighting! <a href="/">Go Back</a>'
 
-app.run(host='127.0.0.1', port=8282)
+app.run(host='127.0.0.1', port=80)
